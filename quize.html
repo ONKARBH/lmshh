@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Quiz Application</h1>
+    
+    <form id="quizForm">
+        <!-- Question 1 -->
+        <div>
+            <p>1. Who is the Father of the Computer?</p>
+            <input type="radio" name="q1" value="Charles Babbage"> Charles Babbage<br>
+            <input type="radio" name="q1" value="Thomas Edison"> Thomas Edison<br>
+            <input type="radio" name="q1" value="Albert Einstein"> Albert Einstein<br>
+            <input type="radio" name="q1" value="Isaac Newton"> Isaac Newton<br>
+        </div>
+        <!-- Question 2 -->
+        <div>
+            <p>2. What is the full form of E-Mail?</p>
+            <input type="radio" name="q2" value="Electric Mail"> Electric Mail<br>
+            <input type="radio" name="q2" value="Exchange Mail"> Exchange Mail<br>
+            <input type="radio" name="q2" value="Electronic Mail"> Electronic Mail<br>
+            <input type="radio" name="q2" value="Engagement Mail"> Engagement Mail<br>
+        </div>
+        <!-- Question 3 -->
+        <div>
+            <p>3. In the virtual world, WWW stands for ___________________________.</p>
+            <input type="radio" name="q3" value="World Without Windows"> World Without Windows<br>
+            <input type="radio" name="q3" value="World Wide Web"> World Wide Web<br>
+            <input type="radio" name="q3" value="World Wide Web Applications"> World Wide Web Applications<br>
+            <input type="radio" name="q3" value="World Wide Warehouse"> World Wide Warehouse<br>
+        </div>
+        <!-- Question 4 -->
+        <div>
+            <p>4. What do you call a person who uses the internet to explore and communicate?</p>
+            <input type="radio" name="q4" value="Citizen"> Citizen<br>
+            <input type="radio" name="q4" value="Resident"> Resident<br>
+            <input type="radio" name="q4" value="Cybernaut"> Cybernaut<br>
+            <input type="radio" name="q4" value="None of the above"> None of the above<br>
+        </div>
+        <!-- Question 5 -->
+        <div>
+            <p>5. Who invented Compact Disc?</p>
+            <input type="radio" name="q5" value="James T. Russell"> James T. Russell<br>
+            <input type="radio" name="q5" value="Fujio Masuoka"> Fujio Masuoka<br>
+            <input type="radio" name="q5" value="Thomas Edison"> Thomas Edison<br>
+            <input type="radio" name="q5" value="Martin Cooper"> Martin Cooper<br>
+        </div>
+        <!-- Question 6 -->
+        <div>
+            <p>6. Which one of the following is not an Operating System (OS)?</p>
+            <input type="radio" name="q6" value="Windows 10"> Windows 10<br>
+            <input type="radio" name="q6" value="Linux"> Linux<br>
+            <input type="radio" name="q6" value="DOS"> DOS<br>
+            <input type="radio" name="q6" value="MS Excel"> MS Excel<br>
+        </div>
+        <!-- Question 7 -->
+        <div>
+            <p>7. What do you need to use to connect to the internet?</p>
+            <input type="radio" name="q7" value="Mouse"> Mouse<br>
+            <input type="radio" name="q7" value="Modem"> Modem<br>
+            <input type="radio" name="q7" value="CPU"> CPU<br>
+            <input type="radio" name="q7" value="Keyboard"> Keyboard<br>
+        </div>
+        <!-- Question 8 -->
+        <div>
+            <p>8. What is also known as a portable computer?</p>
+            <input type="radio" name="q8" value="Laptop"> Laptop<br>
+            <input type="radio" name="q8" value="CPU"> CPU<br>
+            <input type="radio" name="q8" value="Monitor"> Monitor<br>
+            <input type="radio" name="q8" value="Desktop"> Desktop<br>
+        </div>
+        <!-- Question 9 -->
+        <div>
+            <p>9. Name the device that is used to take a printout of a document from a computer.</p>
+            <input type="radio" name="q9" value="CPU"> CPU<br>
+            <input type="radio" name="q9" value="Mouse"> Mouse<br>
+            <input type="radio" name="q9" value="Keyboard"> Keyboard<br>
+            <input type="radio" name="q9" value="Printer"> Printer<br>
+        </div>
+        <!-- Question 10 -->
+        <div>
+            <p>10. How much is a byte equal to?</p>
+            <input type="radio" name="q10" value="8 bits"> 8 bits<br>
+            <input type="radio" name="q10" value="16 bits"> 16 bits<br>
+            <input type="radio" name="q10" value="32 bits"> 32 bits<br>
+            <input type="radio" name="q10" value="64 bits"> 64 bits<br>
+        </div>
+        <button type="button" onclick="calculateScore()">Submit</button>
+    </form>
+    
+
+    
+    <p id="result"></p>
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+   /* Default background (mobile first) */
+body {
+   background-image: url('mobile.jpg');
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ /* Tablet view */
+ @media (min-width: 600px) {
+   body {
+     background-image: url('tablet.jpg');
+   }
+ }
+ 
+ /* Desktop view */
+ @media (min-width: 1024px) {
+   body {
+     background-image: url('desktop.jpg');
+   }
+ }
+ 
+ 
+header{
+   background-image:url("desctop.jpg,mobile.jpg,tablet.jpg") ;
+position:fixed ;
+   top: 0;
+ 
+ margin: 0;
+ padding: 0;
+display: flex;
+  
+}
+header nav ul{
+
+display: flex;
+gap: 50px;
+margin-left: 50px;
+font-size: 20px;
+ }
+ header nav ul li{
+    list-style-type: none;
+    margin: 0 15px;
+
+ }
+
+ header nav ul li a{
+     
+    padding: 8px;
+    border-radius: 15px;
+
+ }
+ header nav ul li a:hover{
+
+    background-color:rgb(197, 25, 199);
+
+ }
+ 
